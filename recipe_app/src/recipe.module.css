@@ -8,9 +8,20 @@
     background: white;
     align-items: center;
     min-width: 40%;
+    padding: 50px;
 }
 .image{
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+h1{
+    margin-bottom: 20px;
+}
+p{
+    margin: 20px;
+    font-weight: 700;
+}
+span{
+    color:rgb(160, 25, 88)
 }

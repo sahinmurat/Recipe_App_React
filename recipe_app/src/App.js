@@ -20,12 +20,7 @@ const App = () =>{
     setRecipies(response.data.hits);
     console.log(response.data.hits)
   }
-  // const getRecipies = async () =>{
-  //   const response = await fetch(`https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`);
-  //   const data = await response.json();
-  //   console.log(data.hits)
-  // }
-
+ 
   const updateSearch = e =>{
     setSearch(e.target.value)
   }
